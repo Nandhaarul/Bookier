@@ -1,0 +1,38 @@
+.{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }      
+}
+.navbar{
+    background-color: #FD6569;
+}
+.container{
+    padding: 10px;
+}
+.book-container{
+    padding: 15px;
+    width: 25%;
+    background-color: black;
+    color: whitesmoke;
+    margin: 30px;
+}
+.book-container h2{
+    color: #FD6569;
+}
+.book-container button{
+    background-color: #FD6569;
+    color: black;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    margin-top: 10px;
+}
