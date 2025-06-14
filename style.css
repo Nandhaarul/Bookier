@@ -10,7 +10,9 @@ body{
       }      
 }
 .navbar{
-    background-color: #FD6569;
+    background-color: #fd6568;
+    padding: 5px;
+    border-radius: 10px;
 }
 .container{
     padding: 10px;
@@ -19,6 +21,7 @@ body{
     padding: 15px;
     width: 25%;
     background-color: black;
+    border-radius: 10px;
     color: whitesmoke;
     margin: 30px;
 }
@@ -35,4 +38,29 @@ body{
     padding-right: 10px;
     border: none;
     margin-top: 10px;
+}
+.add-button{
+    background-color: #fd6568;
+    color: black;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+.popup-overlay{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    z-index: 1;
 }
