@@ -24,6 +24,8 @@ body{
     border-radius: 10px;
     color: whitesmoke;
     margin: 30px;
+    display: inline-block;
+    vertical-align: top;
 }
 .book-container h2{
     color: #FD6569;
@@ -63,4 +65,53 @@ body{
     left: 0;
     border-radius: 10px;
     z-index: 1;
+    display: none;
+}
+
+.popup-box{
+    background-color: #fd6568;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+.popup-box input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+
+.popup-box textarea{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+
+.popup-box input::placeholder{
+    color: black;
+}
+.popup-box textarea::placeholder{
+    color: black;
+}
+.popup-box button{
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: whitesmoke;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:5px;
 }

@@ -10,7 +10,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    <script src="script.js"></script>
     <div class="navbar">
         <h1>Bookier</h1>
     </div>
@@ -19,12 +18,22 @@
             <h2>Rich Dad Poor Dad</h2>
             <h5>Robert</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, saepe natus atque velit sed molestiae sequi debitis itaque asperiores, aliquam cupiditate, impedit quas? Animi ratione odit minima soluta itaque officia nobis repellat excepturi. Consequatur aliquid eligendi distinctio a, magnam minima exercitationem enim? Voluptate optio porro nisi provident quasi voluptatum molestiae?</p>
-            <button>Delete</button>
+            <button onclick="deletebook(event)">Delete</button>
         </div>
     </div>
-    <div class="popup-overlay">
+    <div class="popup-overlay"></div>
 
+    <div class="popup-box">
+        <h2>Add Book Title</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="book-title-input">
+            <input type="text" placeholder="Book Author" id="book-author-input">
+            <textarea placeholder="Synopsis" id="book-description-input"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-popup">CANCEL</button>
+        </form>
     </div>
     <button class="add-button" id="add-popup-button">+</button>
+    <script src="script.js"></script>
 </body>
 </html>
